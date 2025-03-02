@@ -36,3 +36,12 @@ p {
     padding: 20px;
     min-height: 100vh; /* Ensures full-screen height */
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
